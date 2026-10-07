@@ -1,0 +1,3 @@
+/home/admin/Projects/simple_audio_player/build/CMakeFiles/SAP.dir
+/home/admin/Projects/simple_audio_player/build/CMakeFiles/edit_cache.dir
+/home/admin/Projects/simple_audio_player/build/CMakeFiles/rebuild_cache.dir

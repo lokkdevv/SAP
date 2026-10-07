@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/admin/Projects/simple_audio_player/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

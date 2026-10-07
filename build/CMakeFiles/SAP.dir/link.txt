@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/SAP.dir/link.d CMakeFiles/SAP.dir/src/main.c.o -o SAP  -lasound
