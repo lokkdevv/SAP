@@ -57,6 +57,17 @@ CMakeFiles/SAP.dir/src/main.c.o: /home/admin/Projects/simple_audio_player/src/ma
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
   /usr/include/bits/struct_stat.h \
+  /usr/include/bits/termios-baud.h \
+  /usr/include/bits/termios-c_cc.h \
+  /usr/include/bits/termios-c_cflag.h \
+  /usr/include/bits/termios-c_iflag.h \
+  /usr/include/bits/termios-c_lflag.h \
+  /usr/include/bits/termios-c_oflag.h \
+  /usr/include/bits/termios-cbaud.h \
+  /usr/include/bits/termios-misc.h \
+  /usr/include/bits/termios-struct.h \
+  /usr/include/bits/termios-tcflow.h \
+  /usr/include/bits/termios.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -107,7 +118,9 @@ CMakeFiles/SAP.dir/src/main.c.o: /home/admin/Projects/simple_audio_player/src/ma
   /usr/include/sys/cdefs.h \
   /usr/include/sys/poll.h \
   /usr/include/sys/select.h \
+  /usr/include/sys/ttydefaults.h \
   /usr/include/sys/types.h \
+  /usr/include/termios.h \
   /usr/include/time.h \
   /usr/include/unistd.h \
   /usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h \
@@ -139,6 +152,30 @@ CMakeFiles/SAP.dir/src/main.c.o:
 
 /usr/lib64/libc_nonshared.a:
 
+/usr/lib/gcc/x86_64-redhat-linux/16/libgcc_s_asneeded.so:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/libgcc_s.so:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/libatomic.so:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o:
+
+/usr/lib64/libc.so:
+
+/usr/lib64/crtn.o:
+
+/usr/lib64/crti.o:
+
+/usr/lib64/crt1.o:
+
+/lib64/libgcc_s.so.1:
+
+/usr/include/bits/termios-c_cflag.h:
+
+/usr/include/bits/termios-baud.h:
+
+/usr/include/stdlib.h:
+
 /usr/include/bits/struct_stat.h:
 
 /usr/include/bits/types/time_t.h:
@@ -157,11 +194,11 @@ CMakeFiles/SAP.dir/src/main.c.o:
 
 /usr/include/bits/long-double.h:
 
-/usr/include/bits/poll.h:
-
 /usr/include/bits/libc-header-start.h:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/include/bits/cloexec.h:
+
+/usr/include/bits/getopt_posix.h:
 
 /usr/include/bits/getopt_core.h:
 
@@ -179,21 +216,19 @@ CMakeFiles/SAP.dir/src/main.c.o:
 
 /usr/include/bits/unistd_ext.h:
 
+/usr/lib64/libasound.so:
+
+/usr/include/bits/endian.h:
+
 /usr/include/asm/errno.h:
 
 /usr/include/bits/struct_mutex.h:
 
 /home/admin/Projects/simple_audio_player/src/main.c:
 
-/usr/include/alsa/mixer.h:
-
-/lib64/libgcc_s.so.1:
-
 /usr/include/bits/environments.h:
 
 /usr/include/sys/select.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/libatomic.so:
 
 /usr/include/bits/errno.h:
 
@@ -201,13 +236,13 @@ CMakeFiles/SAP.dir/src/main.c.o:
 
 /usr/include/alsa/control.h:
 
-/usr/include/sys/types.h:
+/usr/lib/gcc/x86_64-redhat-linux/16/libatomic_asneeded.so:
 
 /usr/include/bits/struct_rwlock.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/16/libatomic_asneeded.so:
+/usr/include/sys/types.h:
 
 /usr/include/alsa/input.h:
 
@@ -224,6 +259,8 @@ CMakeFiles/SAP.dir/src/main.c.o:
 /usr/include/alsa/conf.h:
 
 /usr/include/bits/stdint-least.h:
+
+/usr/include/bits/termios.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h:
 
@@ -243,31 +280,15 @@ CMakeFiles/SAP.dir/src/main.c.o:
 
 /usr/include/assert.h:
 
-/usr/include/bits/getopt_posix.h:
-
-/usr/include/bits/cloexec.h:
-
-/usr/include/stdlib.h:
-
 /usr/include/alsa/asoundlib.h:
 
-/usr/lib64/crt1.o:
-
 /usr/include/alloca.h:
-
-/usr/include/alsa/timer.h:
-
-/usr/include/string.h:
-
-/usr/lib64/libc.so:
-
-/usr/include/bits/time64.h:
-
-/usr/include/bits/stdlib-float.h:
 
 /usr/lib64/libm.so.6:
 
 /usr/include/bits/types/__FILE.h:
+
+/usr/include/bits/termios-c_cc.h:
 
 /usr/include/alsa/seq.h:
 
@@ -283,13 +304,45 @@ CMakeFiles/SAP.dir/src/main.c.o:
 
 /usr/include/errno.h:
 
-/usr/lib64/crtn.o:
-
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/alsa/hwdep.h:
 
 /usr/include/asm-generic/errno.h:
+
+/usr/include/bits/termios-c_iflag.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h:
+
+/usr/include/bits/termios-c_oflag.h:
+
+/usr/include/bits/poll.h:
+
+/usr/include/bits/termios-cbaud.h:
+
+/usr/include/bits/termios-misc.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/include/bits/termios-c_lflag.h:
+
+/usr/include/bits/termios-struct.h:
+
+/usr/include/bits/termios-tcflow.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/time64.h:
+
+/usr/include/alsa/timer.h:
+
+/usr/include/string.h:
 
 /usr/include/bits/types/FILE.h:
 
@@ -297,13 +350,17 @@ CMakeFiles/SAP.dir/src/main.c.o:
 
 /usr/include/bits/types/__locale_t.h:
 
-/usr/include/bits/time.h:
-
 /usr/lib/gcc/x86_64-redhat-linux/16/libgcc.a:
+
+/usr/include/bits/time.h:
 
 /usr/include/bits/stdio_lim.h:
 
 /usr/include/bits/types/__mbstate_t.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o:
+
+/usr/include/bits/types/__sigset_t.h:
 
 /usr/include/bits/types/__fpos_t.h:
 
@@ -314,8 +371,6 @@ CMakeFiles/SAP.dir/src/main.c.o:
 /lib64/libc.so.6:
 
 /usr/include/bits/types/once_flag.h:
-
-/usr/include/bits/types/sigset_t.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -345,6 +400,12 @@ CMakeFiles/SAP.dir/src/main.c.o:
 
 /usr/include/bits/wordsize.h:
 
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/fcntl.h:
+
 /usr/include/bits/endianness.h:
 
 /usr/include/features.h:
@@ -352,12 +413,6 @@ CMakeFiles/SAP.dir/src/main.c.o:
 /usr/include/gnu/stubs-64.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/fcntl.h:
-
-/usr/include/gnu/stubs.h:
 
 /usr/include/linux/errno.h:
 
@@ -369,30 +424,14 @@ CMakeFiles/SAP.dir/src/main.c.o:
 
 /usr/include/sys/cdefs.h:
 
-/usr/include/stdint.h:
+/usr/include/alsa/mixer.h:
 
-/usr/include/bits/byteswap.h:
+/usr/include/sys/ttydefaults.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h:
+/usr/include/termios.h:
 
 /usr/include/time.h:
 
 /usr/include/unistd.h:
 
 /lib64/ld-linux-x86-64.so.2:
-
-/usr/lib64/crti.o:
-
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o:
-
-/usr/include/bits/endian.h:
-
-/usr/lib64/libasound.so:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/libgcc_s.so:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/libgcc_s_asneeded.so:

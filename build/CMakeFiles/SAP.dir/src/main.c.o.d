@@ -58,4 +58,11 @@ CMakeFiles/SAP.dir/src/main.c.o: \
  /usr/include/alsa/hwdep.h /usr/include/alsa/control.h \
  /usr/include/alsa/mixer.h /usr/include/alsa/ump_msg.h \
  /usr/include/alsa/seq_event.h /usr/include/alsa/seq.h \
- /usr/include/alsa/seqmid.h /usr/include/alsa/seq_midi_event.h
+ /usr/include/alsa/seqmid.h /usr/include/alsa/seq_midi_event.h \
+ /usr/include/termios.h /usr/include/bits/termios.h \
+ /usr/include/bits/termios-struct.h /usr/include/bits/termios-c_cc.h \
+ /usr/include/bits/termios-c_iflag.h /usr/include/bits/termios-c_oflag.h \
+ /usr/include/bits/termios-c_cflag.h /usr/include/bits/termios-cbaud.h \
+ /usr/include/bits/termios-c_lflag.h /usr/include/bits/termios-tcflow.h \
+ /usr/include/bits/termios-misc.h /usr/include/bits/termios-baud.h \
+ /usr/include/sys/ttydefaults.h
