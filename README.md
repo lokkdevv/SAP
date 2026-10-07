@@ -1,5 +1,5 @@
 # SAP
-A simple CLI audio player for Linux that interacts directly ALSA (Advanced Linux Sound Architecture)
+A simple CLI audio player for Linux that interacts directly with ALSA (Advanced Linux Sound Architecture)
 
 ## Compiling
 - to generate the build files:
