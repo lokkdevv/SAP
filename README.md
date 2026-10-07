@@ -3,18 +3,18 @@ A simple CLI audio player for Linux that interacts directly ALSA (Advanced Linux
 
 ## Compiling
 - to generate the build files:
-shell'''
+```shell
 cmake -S . -B build
-'''
+```
 - to build:
-shell'''
+```shell
 cmake --build build
-'''
+```
 
 ## Running
 - To run the app:
-shell'''
+```shell
 ./build/SAP
-'''
+```
 
 
